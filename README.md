@@ -5,6 +5,11 @@ It’s a bee that could be used to perform various task with Apache Hive. Inspir
 ### Schema at one place
 Workerbee enables you to define schema of database and tables along side of Map - Reduce programs. Once written they can be managed by changing java code. Using MigrationGenerator, migrations can generated which can be run against the database that need to migrate.
 
+
+### Support for Avro tables
+Workerbee supports creation of Avro Tables as well alongside Text Tables.
+
+
 ### Query Builder at disposal
 Workerbee comes with basic query builder that comes handy when you don’t want to commit any typos while writing queries. No need to remember or lookup table's schema just to check column's order and type.
 
